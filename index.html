@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Biz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <header>
+        <h1>African Red Coconut Inc</h1>
+        <h4>Alls strive and prosper(ASAP)<h4>
+    </header>
+    <section>
+        <h2>Welcome</h2>
+        <p>This is the best clothing brand in africa with direct influences form asap rocky's AWGE</p>
+        <br>
+        <p>ABOUT US: Founded in 2025 by Leeroy Guri
+            we've sereved over 100 clients with unique designs 
+            for their unique lives and styles 
+        </p>
+    </section>
+
+
+    <section class="blue container">
+        <h2>SERVICES:<h2>
+        <article class="card">
+            <div class="icons">
+                &#10084;
+            </div>
+            <h3>Royce Nhumburudzi</h3>
+            <p>Creative director -Creates
+                unique and cut-edging websites
+                for people in Chitungwiza
+            </p>
+            <button>Contact</button>
+        </article>
+        <article class="card">
+            <div class="icons">
+                &#10084;
+            </div>
+            <h3></h3>
+            <p></p>
+            <button>Contact</button>
+        </article>
+    </section>
+
+    <section>
+        <h2>My Order Form: </h2>
+        <form id="my-form">
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" size="25" name="my-name"><td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><input type="text" size="25" name="my-address"><td>
+            </tr>
+            <tr>
+                <td>Favourite Design</td>
+                <td><select>
+                    <option>First Design</option>
+                    <option>Second Design</option>
+                    <option>Third Design</option>
+                </select><td>
+            </tr>
+            <tr>
+                <td>Quantity</td>
+                <td><input type="number" name="my-qty" value="1" min="1" max="5">
+                    <small>(max 5)</small>
+                    <td>
+                   
+            </tr>
+            <tr>
+                <br>
+                <div id="my-order">
+
+                </div>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input  class="button" type="button" value="Process Order" onclick="placeOrder();">
+                    <input class="button" type="reset" value="Clear">
+                </td>
+                
+            </tr>
+        </table>
+        </form>
+        
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
